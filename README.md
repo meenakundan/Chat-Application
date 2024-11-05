@@ -21,8 +21,8 @@ This is a backend for a chat application built using PHP, the Slim framework, an
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/chat-app-backend.git
-   cd chat-app-backend
+   https://github.com/meenakundan/PHP-Chat-Application-Backend-bunq.git
+   cd PHP-Chat-Application-Backend-bunq
    ```
 
 2. **Install dependencies**:
@@ -44,7 +44,22 @@ This is a backend for a chat application built using PHP, the Slim framework, an
 
 ## API Endpoints
 
-### 1. Create a Group
+### 1. Create a User
+   - **Endpoint**: `POST /user`
+   - **Request Body**:
+     ```json
+     {
+       "username": "GroupName"
+     }
+     ```
+   - **Response**:
+     ```json
+     {
+       "status": "User added",
+       "user_id": 1
+     }
+     ```
+### 2. Create a Group
    - **Endpoint**: `POST /group`
    - **Request Body**:
      ```json
@@ -60,7 +75,7 @@ This is a backend for a chat application built using PHP, the Slim framework, an
      }
      ```
 
-### 2. Join a Group
+### 3. Join a Group
    - **Endpoint**: `POST /group/{group_id}/join`
    - **Request Body**:
      ```json
@@ -75,7 +90,7 @@ This is a backend for a chat application built using PHP, the Slim framework, an
      }
      ```
 
-### 3. Send a Message
+### 4. Send a Message
    - **Endpoint**: `POST /group/{group_id}/message`
    - **Request Body**:
      ```json
@@ -91,7 +106,7 @@ This is a backend for a chat application built using PHP, the Slim framework, an
      }
      ```
 
-### 4. List Messages in a Group
+### 5. List Messages in a Group
    - **Endpoint**: `GET /group/{group_id}/messages`
    - **Response**:
      ```json
