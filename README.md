@@ -125,10 +125,5 @@ This is a backend for a chat application built using PHP, the Slim framework, an
 - Ensure that the `Content-Type` header is set to `application/json` for all `POST` requests.
 - To view line breaks in responses, `\n` will render in logs or consoles; use `<br>` tags for HTML rendering.
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
-This README provides essential information to get the project running and interact with the API. Let me know if you'd like to add anything specific!
