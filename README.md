@@ -34,7 +34,7 @@ This is a backend for a chat application built using PHP, the Slim framework, an
    - Create an empty `database.sqlite` file in the project root.
    - Run the following command to create tables:
      ```bash
-     php create_tables.php
+     php -d extension=pdo_sqlite -d extension=sqlite3 create_tables.php
      ```
 
 4. **Start the PHP development server**:
