@@ -21,8 +21,8 @@ This is a backend for a chat application built using PHP, the Slim framework, an
 
 1. **Clone the repository**:
    ```bash
-   https://github.com/meenakundan/PHP-Chat-Application-Backend-bunq-.git
-   cd PHP-Chat-Application-Backend-bunq-
+   https://github.com/meenakundan/PHP-Chat-Application-Backend-bunq.git
+   cd PHP-Chat-Application-Backend-bunq
    ```
 
 2. **Install dependencies**:
